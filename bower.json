@@ -6,6 +6,14 @@
     "engines": {"node": ">= 0.6.0"},
     "author": "Fabian Jakobs <fabian@c9.io>",
     "main": "lib/ace",
+    "ignore": [
+        "demo",
+        "build",
+        "build_support",
+        "doc",
+        "experiments",
+        "tool"
+    ],
     "repository" : {
         "type" : "git",
          "url" : "http://github.com/ajaxorg/ace.git"
